@@ -32,7 +32,7 @@ The R script called run_analysis.R does the following.
 <li>Run the script.</li>
 </ol>
 
-## Output of the tasks
+## Output
 <ol>
 <li>The R script saved as "run_analysis.R".</li>
 <li>The tidy dataset file saved as "tidyAverageData.txt" which stored inside the data folder.</li>
