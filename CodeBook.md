@@ -175,6 +175,24 @@ No.|column                   |Type                 |Sample Data
  67| freqBodyGyroJerkMagMean | num                 |-0.319 -0.635 -0.282 -0.99 -0.995 ...
  68| freqBodyGyroJerkMagStd  | num                 |-0.382 -0.694 -0.392 -0.987 -0.995 ...
 
+### Identifier in the resulting Dataset
+
+No.|column                   |Description                 
+---|-------------------------|----------------------------------------------------------------------
+  1| subject                 |ID of the subject who took part in the experiment
+  2| activity                |Activity performed by the subject when the measurements were recorded
+
+### Activities ID and Label
+
+ID.|Label                    
+---|-------------------------
+  1|WALKING                  
+  2|WALKING_UPSTAIRS
+  3|WALKING_DOWNSTAIRS         
+  4|SITTING         
+  5|STANDING
+  6|LAYING
+
 ## Result
 The final result, store in dataframe activitySubjectAvg grouped by subject and activity, was written to the file "tidyAverageData.txt".
 The output file contains the computed average of each measurement (column 3 to 68) for each unique combination of subject and activity (column 1 and 2).
