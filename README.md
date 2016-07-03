@@ -14,13 +14,15 @@ Here are the data for the project:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
 ## Tasks
-Create one R script called run_analysis.R that does the following. 
+The R script called run_analysis.R does the following. 
 <ol>
+<li>Download the source data into working directory and write into R for processing.</li>
 <li>Merges the training and the test sets to create one data set.</li>
-<li>Extracts only the measurements on the mean and standard deviation for each measurement.</li>
+<li>Extracts only the measurements on the mean and standard deviation for each measurement. Name the variables by it's measurement description.</li>
 <li>Uses descriptive activity names to name the activities in the data set.</li>
 <li>Appropriately labels the data set with descriptive variable names.</li>
-<li>From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.</li>
+<li>From the data set in step 5, creates a second, independent tidy data set with the average of each variable for each activity and each subject.</li>
+<li>write the tidy output from step 6 into text file and stored in "data/tidyAverageData.txt" inside working directory</li>
 </ol>
 
 ## Reproduce Steps
