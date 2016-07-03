@@ -33,6 +33,6 @@ Create one R script called run_analysis.R that does the following.
 ## Output of the tasks
 <ol>
 <li>The R script saved as "run_analysis.R".</li>
-<li>The tidy dataset file saved as "tidyAverageData.txt".</li>
+<li>The tidy dataset file saved as "tidyAverageData.txt" which stored inside the Data folder.</li>
 <li>Codebook markdown file that describes the variables, the data, and any transformations or work that you performed to clean up the data saved as "CodeBook.md".</li>
 </ol>
